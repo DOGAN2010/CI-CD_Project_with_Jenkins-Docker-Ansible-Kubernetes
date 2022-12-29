@@ -341,7 +341,14 @@ click Advanced
 Check use password based authentication
 provide password
 ```
-
+Private IP of Docker Host
+```sh
+sudo su
+ssh-keygen
+cd .ssh/
+cat id_rsa
+ 
+```
 - We will create a Jenkins job with below properties:
 ```sh
 Name: BuildAndDeployOnContainer
